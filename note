@@ -1,14 +1,77 @@
-1) You are an AWS Solutions Architect. Your company has a successful web application deployed in an AWS Auto Scaling group. The application attracts more and more global customers. However, the application’s performance is impacted. Your manager asks you how to improve the performance and availability of the application. Which of the following AWS services would you recommend? 
+1) You are an AWS Solutions Architect. Your company has a successful web application deployed in an AWS Auto Scaling group. The application attracts more and more global customers.
+However, the application’s performance is impacted. Your manager asks you how to improve the performance and availability of the application. Which of the following AWS services would you recommend? 
 
 A. AWS DataSync
 B. Amazon DynamoDB Accelerator
 C. AWS Lake Formation
 D. AWS Global Accelerator
 
-```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
 
 
  DataSync is a tool to automate the data transfer and does not help to improve the performance.
  
+ Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to a 10 times performance improvement—
+ from milliseconds to microseconds—even at millions of requests per second
  
+  AWS Lake Formation is used to manage a large amount of data in AWS
+  
+  The AWS Global Accelerator use cases. The Global Accelerator service can improve both application performance and availability.
+  
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+  
+2) Your team is developing a high-performance computing (HPC) application. The application resolves complex, compute-intensive problems and needs a high-performance 
+and low-latency Lustre file system. You need to configure this file system in AWS at a low cost. Which method is the most suitable?
+
+A. Create a Lustre file system through Amazon FSx.
+B. Launch a high-performance Lustre file system in Amazon EBS.
+C. Create a high-speed volume cluster in an EC2 placement group.
+D. Launch the Lustre file system from AWS Marketplace.
+
+
+The Lustre® file system is an open-source, parallel file system that supports many requirements of leadership class HPC simulation environments.
+In Amazon FSx, users can quickly launch a Lustre file system at a low cost.
+
+Although users may be able to configure a Lustre file system through EBS, it needs lots of extra configurations
+
+the EC2 placement group does not support a Lustre file system.
+
+Because products in AWS Marketplace are not cost-effective. For Amazon FSx, there are no minimum fees or set-up charges.
+
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3) You host a static website in an S3 bucket and there are global clients from multiple regions. You want to use an AWS service to store cache for frequently accessed content
+so that the latency is reduced and the data transfer rate is increased. Which of the following options would you choose? 
+
+A. Use AWS SDKs to horizontally scale parallel requests to the Amazon S3 service endpoints.
+B. Create multiple Amazon S3 buckets and put Amazon EC2 and S3 in the same AWS Region.
+C. Enable Cross-Region Replication to several AWS Regions to serve customers from different locations.
+D. Configure CloudFront to deliver the content in the S3 bucket.
+
+CloudFront delivers your content through a worldwide network of data centers called edge locations. The regional edge caches are located between your origin web server and the 
+global edge locations that serve content directly to your viewers.
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,14 @@
+1) You are an AWS Solutions Architect. Your company has a successful web application deployed in an AWS Auto Scaling group. The application attracts more and more global customers. However, the application’s performance is impacted. Your manager asks you how to improve the performance and availability of the application. Which of the following AWS services would you recommend? 
+
+A. AWS DataSync
+B. Amazon DynamoDB Accelerator
+C. AWS Lake Formation
+D. AWS Global Accelerator
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+ DataSync is a tool to automate the data transfer and does not help to improve the performance.
+ 
+ 
+
